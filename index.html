@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emma Krompaščíková – projects</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #EEE2DC;
+            color: #123C69;
+        }
+
+        h1, h2 {
+            color: #AC3B61;
+        }
+
+        .project {
+            width: 800px;
+            margin: 10px auto 10px auto;
+            padding: 1px 10px 10px;
+            background-color: #EDC7B7;
+            border-radius: 10px;
+        }
+
+        .project img {
+            width: 400px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+
+        .flex {
+            display: flex;
+            grid-template-columns: 1fr 1fr;
+            color: #123C69;
+            font-size: 20px;
+            text-align: justify;
+        }
+
+        .flex button {
+            border: 0;
+            background-color: #BAB2B5;
+            width: 250px;
+            height: 40px;
+            font-size: 24px;
+            box-shadow: 5px 5px #123C69;
+            color:  #123C69;
+            border-radius: 10px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        .flex button:hover {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <div class="project">
+        <h1><center>Emma Krompaščíková – projects</center></h1>
+    </div>
+    <div class="project">
+        <h2><center>Nature's Adventures</center></h2>
+        <div class="flex">
+            <img src="img/naturesAdventures.png"/>
+            <div>
+                <span>Flappy Bird inspired game made in Unity Engine. Easily controlled by mouse, spacebar or arrow-up. You can choose from four backgrounds and two avatars.</span>
+                <center><button onclick="location.href='/naturesAdventures/index.html'">
+                    Play
+                </button></center>
+                <center><button onclick="location.href='https://github.com/emminka/Natures-Adventures'">
+                    View source code
+                </button></center>
+            </div>
+        </div>
+    </div>
+    <div class="project">
+        <h2><center>Symbol Quiz</center></h2>
+        <div class="flex">
+            <img src="img/symbolQuiz.png"/>
+            <div>
+                <span>School project game for training short-term memory. Made in Unity Engine. Every level has limited time for memorizing pictures followed by a question. </span>
+                <center><button onclick="location.href='/symbolQuiz/index.html'">
+                    Play
+                </button></center>
+                <center><button onclick="location.href='https://github.com/emminka/Symbol-Quiz'">
+                    View source code
+                </button></center>
+            </div>
+        </div>
+    </div>
+    <div class="project">
+        <h2><center>School projects</center></h2>
+        <div class="flex">
+            <img src="img/calc.png"/>
+            <div>
+                <span>School projects made in various programming languages, for example Python (simple file downloader with sockets), C# (calculator), Shell (text data parsing), SQL, C, PHP...</span>
+                <center><button onclick="location.href='https://github.com/emminka/School-projects'">
+                    View source code
+                </button></center>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
